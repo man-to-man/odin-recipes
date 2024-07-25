@@ -12,3 +12,12 @@
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }
+ul,p,#steplist{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+}
+.stepheaders{
+    text-align: center;
+    font-size: 20px;
+}
