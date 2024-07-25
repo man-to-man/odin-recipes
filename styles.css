@@ -1,3 +1,14 @@
+*{
+    background-color: orange;
+}
 #bheader, #chickenheader, #marinadeheader, #index-title{
     text-align: center;
+    color: blue;
+    
+}
+
+.subheaders{
+    color: green;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
 }
