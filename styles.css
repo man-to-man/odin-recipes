@@ -3,19 +3,60 @@
 }
 #page-list{
     display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+#page-link3{
+    padding: 140px 125px;
+    border: 5px outset;
+    border-radius: 3px;
+    display: inline-block;
+    color: rgb(236, 232, 232);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    background-image: url("https://www.allrecipes.com/thmb/6FrDWEHpkkTvA9pRVFMT84OBSSE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8637636_Hamburgers-with-Grilled-Apple-and-Chili-Crisp_Dotdash-Meredith-Food-Studios_4x3-9bfefd1cbcaa42648e0a4719b741aafa.jpg");
+    background-size: cover;
+    
+    
 }
 
-li a{
+#page-link2{
     padding: 140px 90px;
     border: 5px outset;
     border-radius: 3px;
     display: inline-block;
-    margin-left: 25px;
+    color: rgb(236, 232, 232);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    background-image: url("https://www.allrecipes.com/thmb/M8U_g0jDi-vgNCiwnTYdHY32GU0=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8648903_The-Perfect-Grilled-Chicken-Breasts_Dotdash-Meredith-Food-Studios_4x3-64f4be142d564b6f839339a16b6f59a2.jpg");
+    background-size: cover;
+
+    
+}
+#page-link1{
+    padding: 140px 70px;
+    border: 5px outset;
+    border-radius: 3px;
+    display: inline-block;
+    color: rgb(236, 232, 232);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    background-image: url("https://www.allrecipes.com/thmb/vom5-lRLPCHBskR-k4wDau1GMqw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/665982-italian-chicken-marinade-wannabe-chefette-4x3-1-ac0b567c5bd0457e96e6a15317d9ab57.jpg");
+    background-size: cover;
+    
 }
 
 #bimg, #chickenimg, #marinadeimg{
     margin: 0 auto;
     display: block;
+    height:auto;
+    width: 500px; ;
+    border: 5px outset;
 }
 
 
@@ -31,7 +72,7 @@ li a{
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }
-ul,p,#steplist{
+.Description ,.Ingredient-list, .steplist{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style-type: none;
