@@ -1,6 +1,25 @@
 *{
     background-color: orange;
 }
+#page-list{
+    display: flex;
+}
+
+li a{
+    padding: 140px 90px;
+    border: 5px outset;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#bimg, #chickenimg, #marinadeimg{
+    margin: 0 auto;
+    display: block;
+}
+
+
+
 #bheader, #chickenheader, #marinadeheader, #index-title{
     text-align: center;
     color: blue;
@@ -16,8 +35,11 @@ ul,p,#steplist{
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style-type: none;
+    font-size: 20px;
 }
 .stepheaders{
     text-align: center;
     font-size: 20px;
+    margin: 15px 0;
 }
+
